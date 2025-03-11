@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(224, 223, 223);
+    
+}
+
+.headerLeft{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding: 22px 20px;
+}
+
+.location{
+    border-left: 1px solid rgb(224, 223, 223);
+    padding: 18px 80px;
+}
+
+.location h3{
+    font-size: 18px;
+    font-weight: 800;
+}
+.location p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.searchBar {
+    flex-grow: 1;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(243, 241, 241);
+}
+
+.searchBar button {
+    padding: 18px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    background: transparent;
+}
+
+.searchBar input {
+    flex-grow: 1;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background: transparent;
+}
+
+.searchBar input:focus{
+    outline: none;
+}
+
+.headerRight{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.headerRight > .login, .cart{
+    padding: 10px 20px;
+    border: 1px solid salmon;
+    border-radius: 10px;
+}
+
+.login:hover, .cart:hover{
+    color: white;
+    background-color: rgb(175, 214, 175);
+    border: none;
+}
