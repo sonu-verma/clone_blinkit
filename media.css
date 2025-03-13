@@ -36,7 +36,89 @@
         bottom: 0;
         justify-content: space-between;
         width: 100%;
+        background-color: white;
+        padding: 10px;
     }
+
+    .bannerSection .mobile-img{
+        display: block;
+        width: 90%;
+        margin-top: 10px !important;
+        margin: auto;
+    }
+    .bannerSection .web-img{
+        display: none;
+    }
+
+    .serviceBanner{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .categorySection {
+        padding: 2%;
+    }
+
+    .categorySection .categoryItem{
+        flex-basis: 20%;
+        margin: 2%;
+    }
+    
+    .categorySection .categoryItem img{
+        width: 80%;
+        border-radius: 5%;
+    }
+    .categorySection .categoryItem h3{
+       font-size: 10px;
+    }
+
+    .footer-first-row{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .footer-second-row{
+        flex-direction: column;
+        gap: 20px;
+        font-size: 2px;
+    }
+    .productListSection{
+        padding: 10px;
+    }
+    .productItem{
+        flex-basis: 47%;
+    }
+    footer{
+        margin-top: 10px;
+        margin-bottom: 120px;
+    }
+
+    .footer-first-row-col1{
+        margin-bottom: 20px !important;
+        
+        font-size: 11px;
+    }
+    .categoryList{
+        margin: 0px !important;
+        gap: 4px !important;
+    }
+
+    .categoryList ul li {
+        margin: 2px;
+        color: #666;
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+
+    .useful_links ul li {
+        font-size: 12px;
+    }
+
+    .categorySection .categoryItem{
+        flex-basis: 21%;
+        padding: 0px;
+    }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 991px){
@@ -44,8 +126,10 @@
         flex-direction: column;
         align-items: stretch;
     }
+
     .headerLeft{
         justify-content: center;
+        padding: auto;
     }
     .headerLeft .logo{
         padding: 12px;
@@ -59,5 +143,107 @@
     
     .location p{
         font-size: 10px;
+    }
+
+    .searchBar {
+        margin: 8px 20px;
+        padding: 0px;
+    }
+
+    .searchBar input{
+        padding: 0px;
+    }
+
+    .headerRight{
+        position: fixed;
+        bottom: 0;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #f6f0f0;
+        padding: 10px;
+    }
+
+    .bannerSection .mobile-img{
+        display: block;
+        width: 90%;
+        margin-top: 10px !important;
+        margin: auto;
+    }
+    .bannerSection .web-img{
+        display: none;
+    }
+
+    .serviceBanner {
+        flex-direction: row;
+        padding: 30px;
+        flex-wrap: wrap;
+    }
+
+    .categorySection {
+        padding: 2%;
+    }
+
+    .categorySection .categoryItem{
+        flex-basis: 20%;
+        margin: 2%;
+    }
+    
+    .categorySection .categoryItem img{
+        width: 80%;
+        border-radius: 5%;
+    }
+    .categorySection .categoryItem h3{
+       font-size: 10px;
+    }
+
+    .footer-first-row{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .footer-second-row{
+        flex-direction: column;
+        gap: 20px;
+        font-size: 2px;
+    }
+    .productListSection{
+        padding: 10px;
+    }
+    .productItem{
+        flex-basis: 47%;
+    }
+    footer{
+        margin-top: 10px;
+        margin-bottom: 48px;
+    }
+
+    .footer-first-row-col1{
+        margin-bottom: 20px !important;
+        font-size: 11px;
+    }
+    .categoryList{
+        margin: 0px !important;
+        gap: 4px !important;
+    }
+
+    .categoryList ul li {
+        margin: 2px;
+        color: #666;
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+
+    .useful_links ul li {
+        font-size: 12px;
+    }
+
+    .categorySection .categoryItem{
+        flex-basis: 21%;
+        padding: 0px;
+    }
+
+    .serviceBanner .bannerItem{
+        flex-basis: 48%;
+        margin: 1%;
     }
 }
